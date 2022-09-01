@@ -21,7 +21,7 @@ function UseEffect() {
     return '#' + Math.random().toString(16).slice(2, 8);
   };
   return (
-    <div className="container">
+    <div className="container" style={{ backgroundColor: color }}>
       <p> backgroundColor : {color} </p>
       <button onClick={clickEventHandler}> change color</button>
     </div>
